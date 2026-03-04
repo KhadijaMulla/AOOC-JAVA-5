@@ -1,15 +1,15 @@
-package MathOperations; // Create the package as required
+package MathOperations; 
 
 public class Q3 {
     
-    // Method to perform operations using the built-in Math class
+    
     public void performOperations(double number) {
         System.out.println("Input Number: " + number);
         
-        // Using Java's built-in Math class methods
-        System.out.println("Floor value: " + Math.floor(number)); // Largest integer <= number
-        System.out.println("Ceil value : " + Math.ceil(number));  // Smallest integer >= number
-        System.out.println("Round value: " + Math.round(number)); // Closest integer
+        
+        System.out.println("Floor value: " + Math.floor(number)); 
+        System.out.println("Ceil value : " + Math.ceil(number));  
+        System.out.println("Round value: " + Math.round(number));  
     }
 
     public static void main(String[] args) {
@@ -22,3 +22,4 @@ public class Q3 {
         demo.performOperations(12.2);
     }
 }
+
