@@ -1,6 +1,6 @@
-package Ecommerce; // Defines the package as required
+package Ecommerce; 
 
-// Class to store Product details
+
 class Product {
     String productName;
     double price;
@@ -15,7 +15,7 @@ class Product {
     }
 }
 
-// Class to store Customer details
+
 class Customer {
     String customerName;
     String email;
@@ -30,7 +30,7 @@ class Customer {
     }
 }
 
-// Class to handle placing orders and calculating total cost
+
 class Order {
     void placeOrder(Customer customer, Product product, int quantity) {
         double totalCost = product.price * quantity; // Calculates total order cost
@@ -44,7 +44,7 @@ class Order {
     }
 }
 
-// Test program to demonstrate functionality
+
 public class Q2 {
     public static void main(String[] args) {
         // Creating objects
@@ -52,7 +52,8 @@ public class Q2 {
         Customer user = new Customer("Ananya", "ananya@example.com");
         Order myOrder = new Order();
 
-        // Placing an order and displaying details
+        
         myOrder.placeOrder(user, laptop, 2);
     }
 }
+
